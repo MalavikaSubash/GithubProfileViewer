@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.username{
+    margin-left: 450px;
+}
+
+.Profile {
+    max-width: 400px;
+    margin-left: 450px;
+  }
+  
+  .dp {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+  input{
+      width: 100%;
+  }
+  
+  
