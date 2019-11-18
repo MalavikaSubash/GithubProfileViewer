@@ -34,7 +34,7 @@ export class ProfilenameComponent implements OnInit {
       this.isLoader = false;
       this.isValid  = false;
       this.data = false;
-      this.snackBar.open('Bad credentials', 'Close', { duration: 5000, verticalPosition: 'top', horizontalPosition: 'right'
+      this.snackBar.open('Bad credentials', 'Close' , { duration: 5000, verticalPosition: 'top', horizontalPosition: 'right'
       });
     });
   }
